@@ -6,21 +6,25 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "pixi.js": "^5.3.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-loading-overlay": "^1.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
+    "react-tooltip": "^4.2.10",
     "tailwindcss": "^1.8.10"
   },
   "scripts": {
-    "build:css": "postcss src/styles/main.css -o src/index.css",
-    "watch:css": "postcss src/styles/main.css -o src/index.css -w",
+    "build:css": "postcss src/styles/tailwind.css -o src/main.css",
+    "watch:css": "postcss src/styles/tailwind.css -o src/main.css -w",
     "start": "npm-run-all -p watch:css start-js",
     "start-js": "react-scripts start",
     "build-js": "react-scripts build",
     "build": "npm-run-all build:css build-js",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "tailwind:build": "npx tailwindcss build -c tailwind.config.js -o src/styles/main.css"
   },
   "eslintConfig": {
     "extends": "react-app"
