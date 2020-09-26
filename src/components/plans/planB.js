@@ -3,24 +3,28 @@ import "../../styles/planB.css"
 
 const PlanB = () => {
   return (
+
     <div class="parent1 h-full w-full bg-deepLight">
       <div class="a flex items-center border-2">
-        <p className="w-full text-center text-white ">Computer Lab </p>
+        <p className="w-full text-center text-white ">RekEvents 1</p>
       </div>
       <div class="b flex items-center border-2">
-        <p className="w-full text-center text-white ">Conference Room</p>
+        <p className="w-full text-center text-white ">RekEvents 2</p>
       </div>
       <div class="c flex items-center border-2">
-        <p className="w-full text-center text-white ">Study Area</p>
+        <p className="w-full text-center text-white ">RekStudy 1</p>
       </div>
       <div class="d flex items-center border-2">
-        <p className="w-full text-center text-white ">cafeteria</p>
+        <p className="w-full text-center text-white ">RekStudy 2</p>
       </div>
       <div class="e flex items-center border-2">
-        <p className="w-full text-center text-white ">Common/event Space</p>
+        <p className="w-full text-center text-white ">RekWord 1</p>
       </div>
       <div class="f flex items-center border-2">
-        <p className="w-full text-center text-white ">Entrance</p>
+        <p className="w-full text-center text-white ">RekMeetings</p>
+      </div>
+      <div class="g flex items-center border-2">
+        <p className="w-full text-center text-white ">RekCreate</p>
       </div>
     </div>
   )

@@ -1166,6 +1166,16 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
 
+"@daybrush/utils@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@daybrush/utils/-/utils-1.0.0.tgz#38a0c27a9a7954b75a45c3b61d6021d9a9112439"
+  integrity sha512-XaDvJk0qIZVv6FfZOhuO5uchZKDyzFiSqcpNDZgvemOOp3Q5jKKceanDiGwtZlBTRSYmbAs5T+PVfkDpmB25gg==
+
+"@egjs/list-differ@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@egjs/list-differ/-/list-differ-1.0.0.tgz#2277aff52e3e4bd9318d5c30ffc3ba3b6216f05e"
+  integrity sha512-HsbMKc0ZAQH+EUeCmI/2PvTYSybmkaWwakU8QGDYYgMVIg9BQ5sM0A0Nnombjxo2+JzXHxmH+jw//yGX+y6GYw==
+
 "@emotion/cache@^10.0.27":
   version "10.0.29"
   resolved "https://registry.yarnpkg.com/@emotion/cache/-/cache-10.0.29.tgz#87e7e64f412c060102d589fe7c6dc042e6f9d1e0"
@@ -1464,6 +1474,33 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
+
+"@nx-js/observer-util@^4.2.2":
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/@nx-js/observer-util/-/observer-util-4.2.2.tgz#faea1bc61936653486d1b5dec7485220991e628d"
+  integrity sha512-9OayX1xkdGjdnsDiO2YdaYJ6aMyCF7/NY4QWVgIgjSAZJ4OX2fD766Ts79hEzBscenQy2DCaSoY8VkguIMB1ZA==
+
+"@risingstack/react-easy-state@^6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@risingstack/react-easy-state/-/react-easy-state-6.3.0.tgz#3590031f7382c5c6c7866790ba7a72e557a12407"
+  integrity sha512-AGLrzvwloZL7dgagwRkxJaq7bcDsOGdHrCpHZIlMIxcFLdFr5IpD2/kcmTlC34H682pvfIl1lzNxBw72la10aA==
+  dependencies:
+    "@nx-js/observer-util" "^4.2.2"
+
+"@scena/react-ruler@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@scena/react-ruler/-/react-ruler-0.6.1.tgz#d97442debafbe1a34fa529da5c3fa9edaf05c66f"
+  integrity sha512-KDHTNPpRE8Dhz+dqERxtcPPd72Ke2SUEDWNHvJT+9yQf9hELMLqf9FIXk2XRRdkGnb8LA53clsOMf9LqLyq2Xw==
+  dependencies:
+    "@daybrush/utils" "^1.0.0"
+    framework-utils "^0.3.4"
+
+"@scena/ruler@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@scena/ruler/-/ruler-0.6.1.tgz#f6ba18f2be724c47a7a671f7818cb072828227cc"
+  integrity sha512-W6qDccIL9KO/kXj/CK3dFyI0khVrH+We34Q9ksmLuu/ZP6S41DWjKufGlMBXoduQJ6ZUa3a9flikxwl+OnG6zw==
+  dependencies:
+    react-compat-ruler "^0.5.1"
 
 "@sheerun/mutationobserver-shim@^0.3.2":
   version "0.3.3"
@@ -5033,6 +5070,11 @@ fragment-cache@^0.2.1:
   dependencies:
     map-cache "^0.2.2"
 
+framework-utils@^0.3.4:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/framework-utils/-/framework-utils-0.3.4.tgz#450e63cca680c2a78047691a32ed9f51a748e3a1"
+  integrity sha512-Psekd+sXiHxtjLvK6aqi7vw6sQpShfBQSYlLkxCyhVzpmeTdxv1lCq8BGx++Mm5yw+MUn5IA4WKNO6LZFtOe2Q==
+
 fresh@0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
@@ -7058,6 +7100,11 @@ map-visit@^1.0.0:
   integrity sha1-7Nyo8TFE5mDxtb1B8S80edmN+48=
   dependencies:
     object-visit "^1.0.0"
+
+mb-sketch-ruler@^1.2.0-dev.11:
+  version "1.2.0-dev.11"
+  resolved "https://registry.yarnpkg.com/mb-sketch-ruler/-/mb-sketch-ruler-1.2.0-dev.11.tgz#edea29a8bad8a03e1db52958d8947d1c785f205e"
+  integrity sha512-htVJxrXEqdXgV6sqNlJWlwB3pHhgXdXOyDmOETyvxfR9kRVy1nTg9gY4PKZdpoyGXP3OmjnbRXkHf8bmTOgYjg==
 
 md5.js@^1.3.4:
   version "1.3.5"
@@ -9144,6 +9191,14 @@ react-app-polyfill@^1.0.6:
     regenerator-runtime "^0.13.3"
     whatwg-fetch "^3.0.0"
 
+react-compat-ruler@^0.5.1:
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/react-compat-ruler/-/react-compat-ruler-0.5.1.tgz#7ba223939a4feb91516a87e0f0ab60e714bbce97"
+  integrity sha512-3MCopJXMLB1icZeCSu+X80D0bcis8xf36KOhbjqwm5h0c2SXywD3z5XwaJyKCljheDcrDbJh6o0EByTQ+TsbYg==
+  dependencies:
+    "@scena/react-ruler" "^0.6.1"
+    react-simple-compat "^0.1.9"
+
 react-dev-utils@^10.2.1:
   version "10.2.1"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-10.2.1.tgz#f6de325ae25fa4d546d09df4bb1befdc6dd19c19"
@@ -9296,6 +9351,14 @@ react-scripts@3.4.3:
     workbox-webpack-plugin "4.3.1"
   optionalDependencies:
     fsevents "2.1.2"
+
+react-simple-compat@^0.1.9:
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/react-simple-compat/-/react-simple-compat-0.1.9.tgz#e15433fd17002ec6917d4e7c4351d200516527c5"
+  integrity sha512-Z5s7FN8LOUmlkDlk/FwMpiHPmirHvLfBAz1XVZNgM7EErCNdqyXE5l78pNE8kOhgFf/UTHpezWCRipPSDu5Www==
+  dependencies:
+    "@daybrush/utils" "^1.0.0"
+    "@egjs/list-differ" "^1.0.0"
 
 react-tooltip@^4.2.10:
   version "4.2.10"
