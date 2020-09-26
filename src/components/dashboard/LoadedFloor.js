@@ -58,6 +58,7 @@ const LoadedFloor = () => {
 										</div>
 										<div className="pl-4 flex w-full h-full">
 											<div className="flex flex-col items-start">
+											<p className="font-semibold text-sm text-gray-400">Renovation Estimation*</p>
 												<p className="font-semibold text-3xl text-white">RM 67,000</p>
 												<p className="text-white text-xs font-normal">This space suitable to accommodate small events. Ipsum Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo deleniti error officiis voluptatem consequatur repellendus quas cum eum aspernatur a quidem culpa, aut iste fuga similique quasi iusto doloribus nam.</p>
 											</div>
